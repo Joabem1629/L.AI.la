@@ -1,0 +1,29 @@
+{
+  "hola": {
+    "name": "hola",
+    "type": ["prefix", "slash", "context"],
+    "description": "Saluda al usuario",
+    "permissions": { "admin": true, "moderator": false, "user": true },
+    "requires_input": false,
+    "embed": true,
+    "auto_response": "¡Holaaa! (＾▽＾)ノ"
+  },
+  "ping": {
+    "name": "ping",
+    "type": ["prefix", "slash", "context"],
+    "description": "Mide la latencia del bot",
+    "permissions": { "admin": true, "moderator": true, "user": true },
+    "requires_input": false,
+    "embed": false,
+    "auto_response": null
+  },
+  "recordatorio": {
+    "name": "recordatorio",
+    "type": ["prefix", "context"],
+    "description": "Crea un recordatorio",
+    "permissions": { "admin": true, "moderator": true, "user": false },
+    "requires_input": true,
+    "embed": false,
+    "auto_response": null
+  }
+}

@@ -1,0 +1,15 @@
+# Node.js
+bot/node_modules/
+
+# Python
+python-llm/__pycache__/
+python-llm/venv/
+
+# DB
+bot/database/laila.sqlite
+
+# Config
+.env
+
+# Logs
+bot/logs/
